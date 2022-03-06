@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://kit.fontawesome.com/b6a278e84b.js" crossorigin="anonymous"></script>
+  <title>Pokébook</title>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <!-- <nav>PokéBook</nav> -->
+  <h2>Pokébook</h2>
+  <div class="container">
+    <button id="random-btn">Get a random Pokémon</button>
+    <!-- <form id="form" autocomplete="off"> 
+      <input 
+        type="search" 
+        id="query" 
+        name="q" 
+        placeholder="Search for a Pokémon" 
+        aria-label="Search through site content"
+      >
+      <button id="search-btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form> -->
+    <div id="card">
+      <button id="fav-btn">
+        <i class="fa-regular fa-star"></i>
+      </button>
+      <div id="img-holder"></div> 
+    </div>
+    <div class="info-bar">
+      <button id="back-arrow">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <div class="name-bar"></div>
+      <button id="fwd-arrow">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+    <p>Click on the star to add / remove favourite</p>
+    <div id="favourites">
+      <p>Favourites</p>
+      <i class="fa-solid fa-xmark"></i>
+      <div id="thumbnails"></div>
+    </div>
+    <p class="select">Click on the thumbnail to select Pokémon<br>X to discard favourites</p>
+  </div>
+</body>
+</html>
